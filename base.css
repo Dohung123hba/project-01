@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,100;1,9..40,200;1,9..40,300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    font-family: var(--font);
+}
+
+:root{
+    --color-black: #1B2026;
+    --font: 'DM Sans', san-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-black);
+}
+
+p{
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0px;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    outline: none;
+}
+
+input[type="text"]:focus,
+text:focus {
+    outline: none;
+}
+
+html, body{
+    cursor: url('images/mouse.png'), auto;
+}
